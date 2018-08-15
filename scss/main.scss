@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  display:flex;
+  justify-content:center;
+  .flex-container{
+    margin:20px auto;
+    section{
+    margin:0 auto;
+      button{
+        background: linear-gradient(white,lightgrey);
+        border-radius:5px;
+        //line-height:20px;
+        padding:5px 20px;
+        border:none;
+      }
+      input{
+        border-radius:5px;
+        //line-height:20px;
+        padding:5px 20px;
+      }
+      #play{
+        background: linear-gradient(#33DD22,#00FF11);
+      }
+      #pause{
+        background: linear-gradient(#DD5566,#FF0000);
+      }
+    }
+  }
+}
+
+
+#board {
+  margin: 20px auto ;
+  min-height: 100px;
+  min-width: 100px;
+  div{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    float: left;
+  }
+  div.live {
+    background-color: #000000;
+  }
+}
+
